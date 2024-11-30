@@ -2,7 +2,8 @@
 
 ## Description
 An analysis of my personal spending data on coffee purchases during midterm and final exam periods.
-##
+## Hypothesis 
+I spend more at coffee shops (e.g., Starbucks, EspressoLab, Coffy) during midterm and final exam periods compared to other times.
 ## Motivation
 Exams are known to be stressful periods for students, often leading to changes in daily routines, including increased caffeine consumption. This project aims to investigate whether my spending on coffee significantly increases during midterm and final exam periods compared to regular weeks. Through this analysis, I aim to uncover patterns in my behavior and explore whether these trends align with general assumptions about exam stress and caffeine dependence.
 ## Data Source
