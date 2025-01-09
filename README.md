@@ -25,7 +25,7 @@ Exam periods have a significant impact on coffee transaction frequency.
 
 ### Exam Periods:
 
-- Derived from the university's academic calendar or personal study schedule.
+- Derived from the university's [academic calendar](https://www.sabanciuniv.edu/en/academic-calendar?b=2024&c=16&d=tr) or personal study schedule.
 - Defined as the exam dates plus 1-2 days before for preparation.
 
 ## Methodology
