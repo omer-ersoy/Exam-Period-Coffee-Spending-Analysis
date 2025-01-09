@@ -102,8 +102,6 @@ Illustrates trends in transaction frequency, emphasizing changes across time.
 - The analysis is based solely on personal data, meaning it reflects patterns and trends observed in a specific individual's behavior. As a result, the findings may not be applicable or generalizable to a broader population. Different individuals or groups may have varying habits, preferences, and external factors influencing their behavior, which are not captured in this dataset. Therefore, caution should be exercised when attempting to extrapolate these results to others without further evidence from a more diverse and representative sample.
 
 ## Future Directions
-
-- Automate merchant categorization using machine learning.
 - Expand the dataset to include other caffeine-related purchases.
 - Explore correlations between transaction frequency and academic performance.
 
