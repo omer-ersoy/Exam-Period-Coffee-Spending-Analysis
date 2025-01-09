@@ -10,7 +10,7 @@ This project investigates the frequency of coffee transactions during midterm an
 
 There is no significant difference in coffee transaction frequency between exam periods and normal periods.
 
-### Alternative Hypothesis (H1):
+### Alternative Hypothesis (HA):
 
 Exam periods have a significant impact on coffee transaction frequency.
 
@@ -63,41 +63,43 @@ Exam periods have a significant impact on coffee transaction frequency.
 
 ### 3. Visualization
 
-- Create visualizations to highlight trends:
-  - Bar plots showing transaction counts during exam vs. normal periods.
-  - Time-series plots illustrating transaction frequency fluctuations over time.
+- Visualizations were used to highlight frequency differences in coffee transactions during exam periods compared to normal periods:
+
+- Bar Plot:
+Provides a clear comparison of total transactions during exam and normal periods.
+
+- Scatter Plot:
+Displays individual transaction occurrences over time, showing distribution patterns.
+
+- Line Plot:
+Illustrates trends in transaction frequency, emphasizing changes across time.
 
 ## Results
 
 ### Statistical Findings:
 
-- Total transactions during exam periods: 91.
-- Total transactions during normal periods: 161.
+- Total coffee transactions during exam periods: 31.
+- Total coffee transactions during normal periods: 146.
 - **Chi-squared test results:**
-  - Chi-squared statistic: 18.30.
-  - P-value: 0.000019.
-  - Conclusion: There is a statistically significant difference in coffee transaction frequency between exam and normal periods.
-
-### Visualization:
-
-- Bar plots reveal frequency differences during exam periods compared to normal periods.
+  - Chi-squared statistic: 2.32.
+  - P-value: 0.12.
 
 ## Conclusion
 
-This analysis provides insights into whether coffee transaction frequency increases during exam periods. The results reject the null hypothesis (H0) and support the alternative hypothesis (H1), indicating a significant impact of exam periods on coffee transaction frequency. Future work could involve:
-
-- Expanding the dataset to include more semesters.
-- Investigating transaction frequencies across different merchants.
+- This analysis provides insights into whether coffee transaction frequency increases during exam periods. However, the results failed to reject the null hypothesis (H0) and did not provide sufficient evidence to support the alternative hypothesis (H1). This indicates that exam periods do not have a statistically significant impact on coffee transaction frequency.
 
 ## Tools and Libraries Used
 
-- **Data Processing:** Python (pandas, numpy)
-- **Statistical Analysis:** SciPy
-- **Visualization:** Matplotlib
+- **Data Processing:** Python (pandas, numpy, read_excel)
+- **Statistical Analysis:** SciPy (chi2_contingency)
+- **Visualization:** Matplotlib (scatter, plot, bar)
+
+## Additional Data
+- This analysis also provides insight into the distribution of coffee transactions across different brands, showing that Starbucks has the highest transaction count, followed by other brands such as Fasshane, Coffy, and EspressoLab.
 
 ## Limitations
 
-- The analysis is limited to personal data, which may not generalize to others.
+- The analysis is based solely on personal data, meaning it reflects patterns and trends observed in a specific individual's behavior. As a result, the findings may not be applicable or generalizable to a broader population. Different individuals or groups may have varying habits, preferences, and external factors influencing their behavior, which are not captured in this dataset. Therefore, caution should be exercised when attempting to extrapolate these results to others without further evidence from a more diverse and representative sample.
 
 ## Future Directions
 
