@@ -74,7 +74,7 @@ Displays individual transaction occurrences over time, showing distribution patt
 - Line Plot:
 Illustrates trends in transaction frequency, emphasizing changes across time.
 
-## Results
+## Findings
 
 ### Statistical Findings:
 
