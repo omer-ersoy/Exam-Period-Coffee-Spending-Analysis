@@ -1,6 +1,8 @@
 # Exam Period Coffee Spending Analysis
 
 ## Project Description
+Visualizations and Code
+All visualizations and code used in this project are available for review and exploration on my GitHub page and personal website. Visit [https://omer-ersoy.github.io/](https://omer-ersoy.github.io/) for access.
 
 This project investigates the frequency of coffee transactions during midterm and final exam periods. By analyzing personal spending data, we aim to determine whether coffee transaction frequency increases during these stressful academic periods.
 
