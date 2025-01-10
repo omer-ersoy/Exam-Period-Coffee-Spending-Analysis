@@ -65,43 +65,57 @@ Exam periods have a significant impact on coffee transaction frequency.
 
 - Visualizations were used to highlight frequency differences in coffee transactions during exam periods compared to normal periods:
 
-- Bar Plot:
-Provides a clear comparison of total transactions during exam and normal periods.
+  - **Bar Plot:** Provides a clear comparison of total transactions during exam and normal periods.
 
-- Scatter Plot:
-Displays individual transaction occurrences over time, showing distribution patterns.
+  - **Scatter Plot:** Displays individual transaction occurrences over time, showing distribution patterns.
 
-- Line Plot:
-Illustrates trends in transaction frequency, emphasizing changes across time.
+  - **Line Plot:** Illustrates trends in transaction frequency, emphasizing changes across time.
 
 ## Findings
 
 ### Statistical Findings:
 
-- Total coffee transactions during exam periods: 31.
-- Total coffee transactions during normal periods: 146.
+- Total coffee transactions during exam periods: 52.
+- Total coffee transactions during normal periods: 182.
 - **Chi-squared test results:**
   - Chi-squared statistic: 2.32.
   - P-value: 0.12.
 
+### Additional Data Analysis:
+
+- Seasonal coffee consumption was analyzed to investigate potential patterns:
+  - Monthly transaction counts ranged from 1 (July) to 42 (December).
+  - Spearman correlation analysis showed a significant inverse relationship between monthly average temperature and coffee consumption frequency:
+    - **Spearman Correlation:** -0.65
+    - **P-value:** 0.02 (statistically significant)
+
 ## Conclusion
 
-- This analysis provides insights into whether coffee transaction frequency increases during exam periods. However, the results failed to reject the null hypothesis (H0) and did not provide sufficient evidence to support the alternative hypothesis (H1). This indicates that exam periods do not have a statistically significant impact on coffee transaction frequency.
+This analysis provides insights into whether coffee transaction frequency increases during exam periods. However, the results failed to reject the null hypothesis (H0) and did not provide sufficient evidence to support the alternative hypothesis (H1). This indicates that exam periods do not have a statistically significant impact on coffee transaction frequency.
 
 ## Tools and Libraries Used
 
 - **Data Processing:** Python (pandas, numpy, read_excel)
-- **Statistical Analysis:** SciPy (chi2_contingency)
+- **Statistical Analysis:** SciPy (chi2_contingency, spearmanr)
 - **Visualization:** Matplotlib (scatter, plot, bar)
 
 ## Additional Data
+
 - This analysis also provides insight into the distribution of coffee transactions across different brands, showing that Starbucks has the highest transaction count, followed by other brands such as Fasshane, Coffy, and EspressoLab.
+- The significant inverse relationship between monthly average temperature and coffee consumption frequency highlights an interesting seasonal pattern worth exploring further.
 
 ## Limitations
 
-- The analysis is based solely on personal data, meaning it reflects patterns and trends observed in a specific individual's behavior. As a result, the findings may not be applicable or generalizable to a broader population. Different individuals or groups may have varying habits, preferences, and external factors influencing their behavior, which are not captured in this dataset. Therefore, caution should be exercised when attempting to extrapolate these results to others without further evidence from a more diverse and representative sample.
+- The analysis is based solely on personal data, meaning:
+  - It reflects patterns and trends observed in a specific individual's behavior.
+  - Findings may not be applicable or generalizable to a broader population.
+  - Different individuals or groups may have varying habits, preferences, and external factors influencing their behavior, which are not captured in this dataset.
+- Limited to specific coffee vendors.
+- The bank transaction file was not shared publicly due to privacy concerns.
 
 ## Future Directions
+
 - Expand the dataset to include other caffeine-related purchases.
 - Explore correlations between transaction frequency and academic performance.
+- Investigate broader seasonal and temperature-related consumption patterns.
 
